@@ -1,0 +1,43 @@
+/* src/header/Header.module.css */
+.header {
+  background: #023271;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  font-family: "Poppins";
+}
+.headerTitle {
+  font-weight: bolder; /* Make the title bold */
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 35px; 
+  margin-right: 10px; 
+}
+
+.header h2 {
+  font-weight: bold;
+}
+.header p {
+  font-size: 10px; 
+}
+.userInfo {
+  text-align: right;
+  align-items: right; /* Adjust size as needed */
+}
+
+.spaced-elements p {
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.spaced-elements Button {
+  margin-top: 10px; /* Adjust as needed */
+}

@@ -1,0 +1,16 @@
+/* src/components/layout/Layout.module.css */
+.main_content {
+  width: 100%;
+  float: left;
+  margin: auto;
+  padding: 15px;
+  min-height: calc(100vh - 130px);
+  }
+  
+  .full_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  

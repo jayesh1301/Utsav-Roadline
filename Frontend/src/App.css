@@ -1,0 +1,232 @@
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.navIcon1 {
+  margin: 0 15px 0 12px;
+}
+
+.form-label {
+  line-height: 40px;
+}
+
+@media (max-width: 767px) {
+  .sidebar_wrapper {
+    top: 100px;
+  }
+  .sidebar_wrapper.short .sidebar {
+    width: 0;
+  }
+}
+
+.off .MuiSelect-select {
+  color: #bbbbbb !important;
+}
+
+.MuiDataGrid-main .MuiDataGrid-columnHeaders {
+  background-color: #023271;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell,
+.MuiDataGrid-root .MuiDataGrid-columnHeaderTitleContainer {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.MuiDataGrid-main .MuiDataGrid-columnHeaders svg {
+  color: #fff;
+}
+
+.MuiDataGrid-main .MuiDataGrid-columnHeaders svg.MuiDataGrid-iconSeparator {
+  display: none;
+}
+
+.css-ny5kr3-MuiDataGrid-root {
+  font-family: 'Lora', serif !important; 
+}
+
+.css-yvtzm7-MuiInputBase-input-MuiOutlinedInput-input {
+  font-family: 'Lora', serif !important; 
+}
+
+.css-1unzhtk-MuiInputBase-root-MuiOutlinedInput-root {
+  font-family: 'Lora', serif !important; 
+}
+
+.css-cds8j0-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: 'Lora', serif !important; 
+  
+}
+
+.MuiInputBase-input::placeholder {
+  font-family: 'Lora', serif !important;
+}
+
+
+
+.MuiDataGrid-main {
+  background-color: #ffffff; 
+}
+
+.table-cell {
+  background-color: #fff;
+  color: black;
+  border: 1px solid #023271;
+  font-size: 5px;
+  font-family: 'Lora', serif !important; 
+}
+
+.table-header-cell {
+  background-color: #023271;
+  color: white !important; 
+  font-family: 'Lora', serif !important; 
+}
+
+.css-1howxi1-MuiTableCell-root {
+  background-color: #023271 !important;
+  color: white !important;
+  font-family: 'Lora', serif !important; 
+}
+
+.css-dsuxgy-MuiTableCell-root {
+  font-family: 'Lora', serif !important; 
+}
+
+
+.table-container {
+  border: 1px solid #023271;
+}
+
+.table-header {
+  border-bottom: 1px solid #023271;
+  font-family: 'Lora', serif !important; 
+}
+
+.table-row {
+  border-bottom: 1px solid #023271;
+
+}
+
+.MuiDataGrid-cell {
+  border-bottom: 0.1px solid #b8c0f0 !important; 
+  border-left: 0.1px solid #b8c0f0 !important; 
+  font-family: 'Lora', serif !important;
+  font-size: small;
+
+}
+
+.MuiDataGrid-columnHeaders {
+  border-bottom: 1px solid #023271 !important;
+  font-family: 'Lora', serif !important;
+}
+
+
+.MuiPaper-root {
+  background-color: #f5f5f5 !important; 
+
+}
+
+.MuiAutocomplete-paper {
+  background-color: #f5f5f5 !important;
+}
+
+.MuiPaper-root.MuiMenu-paper {
+  background-color: #f5f5f5 !important;
+}
+@media screen and (max-width: 600px) {
+  .css-ny5kr3-MuiDataGrid-root .MuiDataGrid-root .MuiDataGrid-cell {
+    font-size: 12px;
+  }
+}
+
+.MuiPickersDay-root {
+  background-color: white !important; 
+  color: black !important; 
+  font-size: 14px !important; 
+  border-radius: 0 !important; 
+}
+
+.MuiDateCalendar-root{
+  background-color: white !important; 
+padding: 0 !important;
+}
+ /* .MuiOutlinedInput-input {
+  padding: 0 !important;
+} */
+  /* .MuiFormLabel-root {
+  font-size: 0.760rem !important;
+  
+} 
+
+.MuiInputLabel-root {
+  font-size: 0.675rem !important;
+}   */
+
+.MuiPickersDay-root.Mui-selected {
+  background-color: #d9534f !important; 
+  color: white !important; 
+}
+
+.MuiTextField-root { 
+  padding: 0 !important;
+  background-color: #f5f5f5
+};
+
+.MuiPickersDay-current {
+  color: #d9534f !important; 
+  font-weight: bold !important; 
+}
+
+.MuiPickersCalendarHeader-root {
+  background-color: #d9534f !important; 
+  color: white !important; 
+  font-size: 18px !important; 
+  font-weight: bold !important; 
+  padding: 16px 24px !important; 
+}
+
+
+.MuiPickersCalendarHeader-transitionContainer .MuiTypography-body2 {
+  color: white !important; 
+}
+
+
+.MuiPickersDay-daySelected .MuiIconButton-root {
+  background-color: #d9534f !important; 
+  color: white !important; 
+}
+
+.MuiInputLabel-root {
+  color: rgb(88, 88, 88) !important; /* Set the label color to dark black */
+}
